@@ -11,7 +11,7 @@ services:
   catalog.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - DatabaseSettings:ConncetionString:mongodb://catalogdb:27017
+      - DatabaseSettings:ConncetionString=mongodb://catalogdb:27017
     ports:
       - "8000:80"
     depends_on:

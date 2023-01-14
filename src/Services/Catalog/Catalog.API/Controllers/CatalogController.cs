@@ -28,11 +28,11 @@ namespace Catalog.API.Controllers
         [ProducesResponseType(typeof(IEnumerable<Product>),(int)HttpStatusCode.OK)]
         public async  Task<ActionResult<IEnumerable<Product>>> GetProduct()
         {
-           var products= await _repository.GetAllProducts();
+            var products= await _repository.GetAllProducts();
             return Ok(products);
         }
 
-        [HttpGet("{id:length(24)}",Name ="GetProduct")]
+        [HttpGet("{Id:length(24)}",Name ="GetProduct")]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
         [ProducesResponseType(typeof(Product),(int)HttpStatusCode.OK)]
        
