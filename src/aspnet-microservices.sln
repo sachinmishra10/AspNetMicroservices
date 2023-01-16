@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D2CD09CD-7713-412A-8ED3-080843CA8BEF}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{E1A091E4-44C7-43D2-946E-CE4790AB6ABF}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FF507EBB-AF4A-429C-8502-A4A69461BB27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{BAA79D02-8A38-4917-A40E-E28D57CD5B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{0619EF9A-49B3-49CE-9239-A7F931305218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{FF507EBB-AF4A-429C-8502-A4A69461BB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF507EBB-AF4A-429C-8502-A4A69461BB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF507EBB-AF4A-429C-8502-A4A69461BB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0619EF9A-49B3-49CE-9239-A7F931305218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0619EF9A-49B3-49CE-9239-A7F931305218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0619EF9A-49B3-49CE-9239-A7F931305218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0619EF9A-49B3-49CE-9239-A7F931305218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A033C21E-5B1A-4D2E-AF4D-B9D4DA945265} = {D2CD09CD-7713-412A-8ED3-080843CA8BEF}
 		{E1A091E4-44C7-43D2-946E-CE4790AB6ABF} = {A033C21E-5B1A-4D2E-AF4D-B9D4DA945265}
+		{BAA79D02-8A38-4917-A40E-E28D57CD5B34} = {D2CD09CD-7713-412A-8ED3-080843CA8BEF}
+		{0619EF9A-49B3-49CE-9239-A7F931305218} = {BAA79D02-8A38-4917-A40E-E28D57CD5B34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8702328-3C5F-4099-82C1-E2EFCB3EC500}
